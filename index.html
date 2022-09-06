@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triveni Jewellers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="" width="186px;">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#home">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><img src="images/cart.png" width="30px;" height="30px;" alt=""></a>
+          <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Jewelry is Precious <br> just like you!</h1>
+            <p>Jewelry that makes you feel more elegant and beautiful. Jewelry makes you <br> look even brighter  in this season of festivals.</p>
+            <a href="products.html" class="btn">Explore Now! &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/img1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------- featured categories ----------->
+    <div class="categories">
+      <div class="small-container">
+        <h2 class="title">Featured Categories</h2>
+        <div class="row">
+          <div class="col-3" style="text-align:center;">
+            <a href="couple.html"><img src="images/prps.webp" style="border-radius:5px; border:2px solid gold;" alt=""></a>
+            <h4>Engagement Rings</h4>
+          </div>
+          <div class="col-3" style="text-align:center;">
+            <a href="pendent.html"><img src="images/images.jpg" style="border-radius:5px; border:2px solid gold;" alt=""></a>
+            <h4>Gold Pendents</h4>
+          </div>
+          <div class="col-3" style="text-align:center;">
+            <a href="g-bracelet.html"><img src="images/i6.webp" style="border-radius:5px; border:2px solid gold;" alt=""></a>
+            <h4>Gold Mens's Bracelets</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------- featured Products ----------->
+
+    <div class="small-container" id="product">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="necklace.html"><img src="images/nc.webp" alt=""></a>
+          <h4>Gold Necklace</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 1,11,000</p>
+        </div>
+        <div class="col-4">
+          <a href="mangal.html"><img src="images/ms.jpg" alt=""></a>
+          <h4>Gold Mangalsutra</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 40,000</p>
+        </div>
+        <div class="col-4">
+          <a href="earing.html"><img src="images/tps.webp" alt=""></a>
+          <h4>Gold Earrings</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 24,000</p>
+        </div>
+        <div class="col-4">
+          <a href="chain.html"><img src="images/chn.webp" alt=""></a>
+          <h4>Gold Chains</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 30,000</p>
+        </div>
+        <div class="col-4">
+          <a href="ring.html"><img src="images/ring.webp" alt=""></a>
+          <h4>Gold Rings</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 11,500 </p>
+        </div>
+        <div class="col-4">
+          <a href="bangle.html"> <img src="images/bangle.jpg" alt=""></a>
+          <h4>Gold Bangles</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 43,000</p>
+        </div>
+      </div>
+
+      <!----------- Latest Products ----------->
+
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="rajwadi.html"><img src="images/ncklace.webp" alt=""></a>
+          <h4>Rajwadi Necklace</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 2,21,000</p>
+        </div>
+        <div class="col-4">
+          <a href="diamond.html"><img src="images/p4.jpg" alt=""></a>
+          <h4>Diamond Rings for women</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 18,000</p>
+        </div>
+        <div class="col-4">
+          <a href="mchain.html"><img src="images/chn1.jpg" alt=""></a>
+          <h4>Fancy Men chains</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 44,000</p>
+        </div>
+        <div class="col-4">
+          <a href="fancy-ear.html"><img src="images/dmnd.jpg" alt=""></a>
+          <h4>Fancy earrings</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 24,000</p>
+        </div>
+        <div class="col-4">
+          <a href="bracelet.html"><img src="images/brc.jpg" alt=""></a>
+          <h4>Gold Bracelets</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>From INR 24,500 </p>
+        </div>
+        <div class="col-4">
+          <a href="m-ring.html"><img src="images/wr1.webp" alt=""></a>
+          <h4>Diamond Rings for men</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <p>From INR 21,000</p>
+        </div>
+      </div>
+    </div>
+    <!----------- Offer ----------->
+    <div class="offer">
+      <div class="small-container">
+        <h2 class="title">Exclusive Products</h2>
+        <div class="row">
+          <div class="col-2">
+            <img src="images/offer.png" alt="" width="400px;" class="offer-img">
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on Triveni Jwellers</p>
+            <h2>Traditional Floral Gold Necklace Set <br>For The Contemporary Bride</h2>
+            <a href="product-details-2.html" class="btn">Buy Now! &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------- testimonial ----------->
+    <div class="testimonial">
+      <div class="small-container">
+        <h2 class="title">Testimonials</h2>
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>This is my first online gold & diamond shopping & i m very happy with this product . The ring is very beautiful & reached safely before time.May God Bless Triveni Jeweller an ever shinning business.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/harsh.jpg" alt="">
+            <h3>Harshvardhan</h3>
+
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>The Item I was bought from Triveni Jewellers is New design & latest trends
+            They are flexible with mode of payment which is really good. They have very nice collection and products are actually what they look on website. </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/rajdip.jpg" alt="">
+            <h3>Jadeja Rajdeep</h3>
+
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>I ordered from Triveni Jewellers for the first time & I am Absolutely  happy with my Purchase.Thank You, Triveni Jewellers , for the amazing Service... Best Quality... Best Delivery... Keep it up!!!.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user-3.png" alt="">
+            <h3>Khushi Patel</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+<!---------Contact-US --------->
+<div class="categories">
+  <div class="small-container">
+    <h2 class="title">Contact-Us</h2>
+    <div class="row">
+      <div class="col-3">
+        <div class="contactus">
+          <h6>Connect On</h6>
+          <h3>Whatsapp</h3>
+          <a href="contact.html"><button class="btn-1" type="btn" name="button">Connect &#8594;</button></a>
+        </div>
+        <div class="">
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="contactus">
+         <h6>Book an</h6>
+         <h3>Appointment</h3>
+        <a href="contact.html"><button class="btn-1" name="button">Book Now &#8594;</button></a>
+        </div>
+      </div>
+      <div class="col-3">
+       <div class="contactus">
+         <h6>Schedule a</h6>
+         <h3>Video Call</h3>
+         <a href="contact.html"><button class="btn-1" name="button">Schedule &#8594;</button></a>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--------- brands --------->
+    <div class="brands">
+      <div class="small-container">
+        <h2 class="title">Payment Methods</h2>
+        <div class="row">
+          <div class="col-5">
+            <img src="images/gpay.png" alt="">
+          </div>
+          <div class="col-5">
+            <img src="images/paytm.jpg" alt="">
+          </div>
+          <div class="col-5">
+            <img src="images/logo-paypal.png" alt="">
+          </div>
+          <div class="col-5">
+            <img src="images/phonepe.png" alt="">
+          </div>
+          <div class="col-5">
+            <img src="images/visa.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------- footer --------->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App.</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="">
+              <img src="images/app-store.png" alt="">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.png" alt="">
+            <p>Our Purpose is to Sustainably make the pleasure and Benifits of Jewelry to the many.</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>FaceBook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Triveni Jewellers</p>
+      </div>
+    </div>
+
+    <!--------- js for toggle menu --------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        }
+        else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
